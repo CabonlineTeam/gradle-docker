@@ -23,6 +23,7 @@ publishing {
 
     repositories {
         maven {
+            name = 'cabonline-external'
             url 'https://adm.cabonline.com/nexus/content/repositories/cabonline'
         }
     }
