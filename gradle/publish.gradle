@@ -5,6 +5,8 @@ apply plugin: 'maven-publish-auth'
 publishing {
     publications {
         maven(MavenPublication) {
+            groupId 'com.cabonline.gradle'
+            artifactId 'gradle-docker'
             from components.java
             artifact sourcesJar
             artifact javadocJar
